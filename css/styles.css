@@ -10,7 +10,7 @@ font-family:'Times New Roman', Times, serif;}
 
 header{background-color:#290088;
   width: 100vw;
-  max-height: 20vh;
+  height: fit-content;
   display: flex;
   flex-direction: row;
 flex-wrap: nowrap;
@@ -24,7 +24,8 @@ flex-direction: row;}
 header img{position: static;
   margin-top: 10px;
 top:50px;
-height: 100px;}
+height: 100px;
+width: 100px;}
 nav ul{
   display: flex;
   flex-direction: row;
