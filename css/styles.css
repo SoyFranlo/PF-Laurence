@@ -1,118 +1,150 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
-list-style-type: none;
-font-family:'Times New Roman', Times, serif;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+}
 
-
-
-
-header{background-color:#290088;
+header {
+  background-color: #290088;
   width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-font-size: 4.4rem;}
-header a {color: #f9fd18;
-text-decoration: none;
-display: flex;
-flex-direction: row;}
-header img{position: static;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.4rem;
+}
+
+header a {
+  color: #f9fd18;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header img {
+  position: static;
   margin-top: 10px;
-top:50px;
-height: 100px;
-width: 100px;}
-nav ul{
+  top: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
-text-align: center;}
+  text-align: center;
+}
 
-main{width: 100vw;
+main {
+  width: 100vw;
   min-height: 100vh;
-  
-  background-image:url("../Pages/Img/bombonera-img.jpg");
+  background-image: url("../Pages/Img/bombonera-img.jpg");
   background-repeat: no-repeat;
-  background-position:center ;
+  background-position: center;
   background-size: cover;
   backdrop-filter: blur(10px);
   margin: 0px;
-  padding: 0px;}
-  
-footer{
-    background-color:#290088;
-    background-size: auto;
-font-size:2rem;
-width: 100vw;}
-footer a span{color:#f9fd18;
-    text-decoration: none;
-    position: relative ;
-bottom: 15px;
+  padding: 0px;
 }
-    .tabla-nombre{background: #000000;}
-h1,p{
+
+footer {
+  background-color: #290088;
+  background-size: auto;
+  font-size: 2rem;
+  width: 100vw;
+}
+
+footer a span {
+  color: #f9fd18;
+  text-decoration: none;
+  position: relative;
+  bottom: 15px;
+}
+
+.tabla-nombre {
+  background: #000000;
+}
+
+h1, p {
   display: flex;
   width: fit-content;
-  margin-bottom:5vh;
+  margin-bottom: 5vh;
   margin-left: 40vw;
   justify-content: center;
-  text-align:center;
+  text-align: center;
   align-self: center;
-  color:#ffffff;
+  color: #ffffff;
 }
-h2{background: #00000067;
-color: #ffffff;}
 
+h2 {
+  background: rgba(0, 0, 0, 0.4039215686);
+  color: #ffffff;
+}
 
-table{
-  width:60vw;
+table {
+  width: 60vw;
   margin: auto;
-  color:#f9fd18;
-  text-align:center;
+  color: #f9fd18;
+  text-align: center;
   font-size: 1.5rem;
   border: #290088 solid 10px;
 }
-.tabla-liga{
+
+.tabla-liga {
   height: 60vh;
-overflow: scroll;}
-tr{
-  cursor:pointer;
+  overflow: scroll;
+}
+
+tr {
+  cursor: pointer;
 }
 
 /* Impares */
-table tr:nth-child(odd){
-  background-color:#8a8a8a;
+table tr:nth-child(odd) {
+  background-color: #8a8a8a;
 }
 
-table tr:nth-child(odd):hover{
-  color:rgb(255, 255, 255);
-  background-color:#000000;
+table tr:nth-child(odd):hover {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
 }
+
 /* Pares */
-table tr:nth-child(even){
-  background-color:#290088;
+table tr:nth-child(even) {
+  background-color: #290088;
 }
 
-table tr:nth-child(even):hover{
-  color:rgb(255, 255, 255);
-  background-color:#000000;
+table tr:nth-child(even):hover {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
 }
 
-.fixture{font: size 1.5rem;;}
+.fixture {
+  font: size 1.5rem;
+}
 
-.contacto-link{color:#000000;
-  background-color:#f9fd18;
+.contacto-link {
+  color: #000000;
+  background-color: #f9fd18;
   border-radius: 30px;
-  text-align:end;
+  text-align: end;
   margin-left: 67vw;
   margin-right: 6vw;
   margin-bottom: 3vw;
 }
+.lista-noticias a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #f9fd18;
+  background-color: #290088;
+}
 
-/* De aca en adelante codigo para formulario de contacto */
+
