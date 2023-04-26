@@ -1,0 +1,38 @@
+table {
+    width: 60vw;
+    margin: auto;
+    color: #f9fd18;
+    text-align: center;
+    font-size: 1.5rem;
+    border: #290088 solid 10px;
+  }
+  
+  .tabla-liga {
+    height: 60vh;
+    overflow: scroll;
+  }
+  
+  tr {
+    cursor: pointer;
+  }
+  
+  /* Impares */
+  table tr:nth-child(odd) {
+    background-color: #8a8a8a;
+  }
+  
+  table tr:nth-child(odd):hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+  }
+  
+  /* Pares */
+  table tr:nth-child(even) {
+    background-color: #290088;
+  }
+  
+  table tr:nth-child(even):hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+  }
+  

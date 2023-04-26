@@ -1,0 +1,24 @@
+.lista-noticias{
+    a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #f9fd18;
+        background-color: #290088;
+    }
+    li{margin: 10px;
+        .card{border:solid #f9fd18 3px;
+            transition: all 0.8s;
+                &:hover{transform: scale(1.05);
+                }
+            
+            
+
+        }
+
+    }
+}
+@media (min-width: 992px){
+ul{display: flex;
+}
+
+}

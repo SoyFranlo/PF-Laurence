@@ -1,0 +1,31 @@
+footer {
+    background-color: #290088;
+    background-size: auto;
+    font-size: 2rem;
+    width: 100vw;
+  }
+  
+  footer span a {
+    color: #f9fd18;
+    text-decoration: none;
+ 
+  }
+  .insta-link{
+    text-decoration: none;
+    color: #f9fd18;
+    transition: all 0.8s;
+    &:hover{transform: scale(2);
+    }
+  }
+  .contacto-link {
+    color: #000000;
+    background-color: #f9fd18;
+    border-radius: 30px;
+    text-align: end;
+    margin-left: 67vw;
+    margin-right: 6vw;
+    transition: all 0.8s;
+    &:hover{transform: scale(1.1);
+    }
+  
+  }
