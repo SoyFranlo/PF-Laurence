@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -20,7 +20,7 @@ main {
 }
 
 header {
-  background-color: #290088;
+  background-color: #090ABD;
   width: 100vw;
   height: fit-content;
   display: flex;
@@ -56,7 +56,7 @@ nav ul {
 }
 
 footer {
-  background-color: #290088;
+  background-color: #090ABD;
   background-size: auto;
   font-size: 2rem;
   width: 100vw;
@@ -92,10 +92,11 @@ footer span a {
 table {
   width: 60vw;
   margin: auto;
-  color: #f9fd18;
+  color: #ffffff;
   text-align: center;
   font-size: 1.5rem;
-  border: #290088 solid 10px;
+  border: #090ABD solid 10px;
+  border-collapse: collapse;
 }
 
 .tabla-liga {
@@ -119,7 +120,7 @@ table tr:nth-child(odd):hover {
 
 /* Pares */
 table tr:nth-child(even) {
-  background-color: #290088;
+  background-color: #090ABD;
 }
 
 table tr:nth-child(even):hover {
@@ -143,29 +144,13 @@ h1, p {
 }
 
 h2 {
-  background: rgba(0, 0, 0, 0.4039215686);
+  background: rgba(0, 0, 0, 0.74);
   color: #ffffff;
+  font-size: 1.4rem;
 }
 
 .fixture {
   font: size 1.5rem;
-}
-
-td img {
-  width: 40px;
-  height: 40px;
-}
-
-.posiciones-btn-int {
-  text-decoration: none;
-  background-color: #f9fd18;
-  color: #290088;
-  width: 100%;
-  font-size: 2rem;
-  align-self: center;
-  justify-self: center;
-  margin: 5vw;
-  padding: 5px;
 }
 
 .lista-noticias a {
@@ -189,6 +174,22 @@ td img {
   ul {
     display: flex;
   }
+}
+td img {
+  width: 40px;
+  height: 40px;
+}
+
+.posiciones-btn-int {
+  text-decoration: none;
+  background-color: #f9fd18;
+  color: #290088;
+  width: 100%;
+  font-size: 2rem;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

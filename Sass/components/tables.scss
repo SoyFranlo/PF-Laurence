@@ -1,10 +1,11 @@
 table {
     width: 60vw;
     margin: auto;
-    color: #f9fd18;
+    color: #ffffff;
     text-align: center;
     font-size: 1.5rem;
-    border: #290088 solid 10px;
+    border:  #090ABD solid 10px;
+    border-collapse: collapse;
   }
   
   .tabla-liga {
@@ -28,7 +29,7 @@ table {
   
   /* Pares */
   table tr:nth-child(even) {
-    background-color: #290088;
+    background-color: #090ABD;
   }
   
   table tr:nth-child(even):hover {
