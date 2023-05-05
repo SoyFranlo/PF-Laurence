@@ -15,8 +15,6 @@ main {
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(10px);
-  margin: 0px;
-  padding: 0px;
 }
 
 header {
@@ -36,6 +34,10 @@ header a {
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  transition: all 0.8s;
+}
+header a:hover {
+  transform: scale(1.05);
 }
 
 header img {
@@ -73,7 +75,7 @@ footer span a {
   transition: all 0.8s;
 }
 .insta-link:hover {
-  transform: scale(2);
+  transform: scale(1.05);
 }
 
 .contacto-link {
@@ -128,11 +130,17 @@ table tr:nth-child(even):hover {
   background-color: #000000;
 }
 
+@media (max-width: 992px) {
+  .tabla-liga table tr td:nth-child(n+7), .tabla-liga table tr th:nth-child(n+7) {
+    display: none;
+  }
+}
 .tabla-nombre {
   background: #000000;
 }
 
-h1, p {
+h1,
+p {
   display: flex;
   width: fit-content;
   margin-bottom: 5vh;

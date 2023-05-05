@@ -1,8 +1,9 @@
 .tabla-nombre {
     background: #000000;
-  }
-  
-  h1, p {
+}
+
+h1,
+p {
     display: flex;
     width: fit-content;
     margin-bottom: 5vh;
@@ -11,17 +12,16 @@
     text-align: center;
     align-self: center;
     color: #ffffff;
-  }
-  
-  h2 {
+}
+
+h2 {
     background: rgba(0, 0, 0, 0.74);
     color: #ffffff;
     font-size: 1.4rem;
-  }
-  
-  
-  
-  .fixture {
+}
+
+
+
+.fixture {
     font: size 1.5rem;
-  }
-  
+}

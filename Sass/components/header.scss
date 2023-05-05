@@ -8,28 +8,38 @@ header {
     justify-content: space-around;
     align-items: center;
     font-size: 3.4rem;
-  }
-  
-  header a {
+    
+}
+
+header a {
     color: #f9fd18;
     text-decoration: none;
     display: flex;
     flex-direction: row;
-  }
-  
-  header img {
+    transition: all 0.8s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+
+
+}
+
+
+header img {
     position: static;
     margin-top: 10px;
     top: 50px;
     height: 100px;
     width: 100px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-  }
+}

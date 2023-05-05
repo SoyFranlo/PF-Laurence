@@ -1,25 +1,33 @@
-.lista-noticias{
-    a{
+.lista-noticias {
+    a {
         font-size: 1.2rem;
         text-decoration: none;
         color: #f9fd18;
         background-color: #090ABD;
     }
-    li{margin-top: 10px;
+
+    li {
+        margin-top: 10px;
         margin-left: 3px;
-        .card{border:solid #f9fd18 3px;
+
+        .card {
+            border: solid #f9fd18 3px;
             transition: all 0.8s;
-                &:hover{transform: scale(1.05);
-                }
-            
-            
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+
 
         }
 
     }
 }
-@media (min-width: 992px){
-ul{display: flex;
-}
+
+@media (min-width: 992px) {
+    ul {
+        display: flex;
+    }
 
 }

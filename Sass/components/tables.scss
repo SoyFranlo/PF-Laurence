@@ -4,36 +4,45 @@ table {
     color: #ffffff;
     text-align: center;
     font-size: 1.5rem;
-    border:  #090ABD solid 10px;
+    border: #090ABD solid 10px;
     border-collapse: collapse;
-  }
-  
-  .tabla-liga {
+}
+
+.tabla-liga {
     height: 60vh;
     overflow: scroll;
-  }
-  
-  tr {
+}
+
+tr {
     cursor: pointer;
-  }
-  
-  /* Impares */
-  table tr:nth-child(odd) {
+}
+
+/* Impares */
+table tr:nth-child(odd) {
     background-color: #8a8a8a;
-  }
-  
-  table tr:nth-child(odd):hover {
+}
+
+table tr:nth-child(odd):hover {
     color: rgb(255, 255, 255);
     background-color: #000000;
-  }
-  
-  /* Pares */
-  table tr:nth-child(even) {
+}
+
+/* Pares */
+table tr:nth-child(even) {
     background-color: #090ABD;
-  }
-  
-  table tr:nth-child(even):hover {
+}
+
+table tr:nth-child(even):hover {
     color: rgb(255, 255, 255);
     background-color: #000000;
-  }
-  
+}
+
+@media (max-width: 992px){
+    
+.tabla-liga{
+    table tr td:nth-child(n+7), table tr th:nth-child(n+7){
+       display:none;
+      }
+    
+}
+}
