@@ -130,11 +130,6 @@ table tr:nth-child(even):hover {
   background-color: #000000;
 }
 
-@media (max-width: 992px) {
-  .tabla-liga table tr td:nth-child(n+7), .tabla-liga table tr th:nth-child(n+7) {
-    display: none;
-  }
-}
 .tabla-nombre {
   background: #000000;
 }
@@ -184,6 +179,12 @@ h2 {
     display: flex;
   }
 }
+@media (max-width: 992px) {
+  .fixture tr td:nth-child(4n+2),
+  .fixture tr th:nth-child(4n+2) {
+    display: none;
+  }
+}
 td img {
   width: 40px;
   height: 40px;
@@ -201,6 +202,13 @@ td img {
   margin-bottom: 10px;
 }
 
+@media (max-width: 992px) {
+  .tabla-lpf tr td:nth-child(n+6),
+  .tabla-lpf tr th:nth-child(n+6), .tabla-copalibertadores tr td:nth-child(n+6),
+  .tabla-copalibertadores tr th:nth-child(n+6) {
+    display: none;
+  }
+}
 @media (min-width: 992px) {
   .historia-club {
     display: grid;

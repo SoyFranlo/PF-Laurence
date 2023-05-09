@@ -36,13 +36,3 @@ table tr:nth-child(even):hover {
     color: rgb(255, 255, 255);
     background-color: #000000;
 }
-
-@media (max-width: 992px){
-    
-.tabla-liga{
-    table tr td:nth-child(n+7), table tr th:nth-child(n+7){
-       display:none;
-      }
-    
-}
-}

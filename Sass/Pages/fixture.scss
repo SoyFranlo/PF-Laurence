@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+    .fixture{
+        tr td:nth-child(4n+2),
+        tr th:nth-child(4n+2) {
+            display: none;
+        }
+    }
+    
+}

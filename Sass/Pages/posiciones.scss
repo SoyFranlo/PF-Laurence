@@ -16,3 +16,17 @@ td img {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 992px) {
+    @mixin ocultar-col-pos {
+
+        tr td:nth-child(n+6),
+        tr th:nth-child(n+6) {
+            display: none;
+        }
+    }
+
+    .tabla-lpf, .tabla-copalibertadores{
+        @include ocultar-col-pos
+    }
+}
