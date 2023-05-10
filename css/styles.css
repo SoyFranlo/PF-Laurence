@@ -96,14 +96,13 @@ table {
   margin: auto;
   color: #ffffff;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: #090ABD solid 10px;
   border-collapse: collapse;
 }
-
-.tabla-liga {
-  height: 60vh;
-  overflow: scroll;
+table tr th,
+table tr td {
+  border: #000000 solid 2px;
 }
 
 tr {
@@ -112,7 +111,7 @@ tr {
 
 /* Impares */
 table tr:nth-child(odd) {
-  background-color: #8a8a8a;
+  background-color: #5c5c5c;
 }
 
 table tr:nth-child(odd):hover {
@@ -127,6 +126,10 @@ table tr:nth-child(even) {
 
 table tr:nth-child(even):hover {
   color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+table tr th {
   background-color: #000000;
 }
 
@@ -200,15 +203,59 @@ td img {
   justify-self: center;
   padding: 5px;
   margin-bottom: 10px;
+  transition: all 0.8s;
+}
+.posiciones-btn-int:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}
+
+.tablas-btn {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  font-size: 1.5rem;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+  height: fit-content;
+}
+.dropdown-menu li {
+  margin: 10px;
 }
 
 @media (max-width: 992px) {
-  .tabla-lpf tr td:nth-child(n+6),
-  .tabla-lpf tr th:nth-child(n+6), .tabla-copalibertadores tr td:nth-child(n+6),
-  .tabla-copalibertadores tr th:nth-child(n+6) {
+  .tabla-lpf tr td:nth-child(3),
+  .tabla-lpf tr th:nth-child(3),
+  .tabla-copalibertadores tr td:nth-child(3),
+  .tabla-copalibertadores tr th:nth-child(3) {
     display: none;
   }
 }
+.zona-libertadores {
+  background-color: #a16e00;
+}
+
+.zona-sudamericana {
+  background-color: #005e8a;
+}
+
+.descenso {
+  background-color: #960101;
+}
+
+.zona-copalpf {
+  background-color: #008116;
+}
+
 @media (min-width: 992px) {
   .historia-club {
     display: grid;

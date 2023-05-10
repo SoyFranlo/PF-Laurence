@@ -12,21 +12,66 @@ td img {
     font-size: 2rem;
     align-self: center;
     justify-self: center;
-
     padding: 5px;
     margin-bottom: 10px;
+    transition: all 0.8s;
+
+    &:hover {
+        background-color: #000000;
+        transform: scale(1.05);
+    }
+}
+
+.tablas-btn {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    font-size: 1.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu {
+    background-color: #00000000;
+    border: none;
+    padding: 0;
+    height: fit-content;
+
+    & li {
+        margin: 10px;
+    }
 }
 
 @media (max-width: 992px) {
     @mixin ocultar-col-pos {
 
-        tr td:nth-child(n+6),
-        tr th:nth-child(n+6) {
+        tr td:nth-child(3),
+        tr th:nth-child(3) {
             display: none;
         }
     }
 
-    .tabla-lpf, .tabla-copalibertadores{
+    .tabla-lpf,
+    .tabla-copalibertadores {
         @include ocultar-col-pos
     }
+}
+
+.zona-libertadores {
+    background-color: #a16e00;
+}
+
+.zona-sudamericana {
+    background-color: #005e8a;
+}
+
+.descenso {
+    background-color: #960101;
+}
+
+.zona-copalpf {
+    background-color: #008116;
 }

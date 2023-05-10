@@ -3,15 +3,16 @@ table {
     margin: auto;
     color: #ffffff;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: #090ABD solid 10px;
     border-collapse: collapse;
+
+    & tr th,
+    tr td {
+        border: #000000 solid 2px;
+    }
 }
 
-.tabla-liga {
-    height: 60vh;
-    overflow: scroll;
-}
 
 tr {
     cursor: pointer;
@@ -19,7 +20,7 @@ tr {
 
 /* Impares */
 table tr:nth-child(odd) {
-    background-color: #8a8a8a;
+    background-color: #5c5c5c;
 }
 
 table tr:nth-child(odd):hover {
@@ -34,5 +35,9 @@ table tr:nth-child(even) {
 
 table tr:nth-child(even):hover {
     color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+table tr th {
     background-color: #000000;
 }
