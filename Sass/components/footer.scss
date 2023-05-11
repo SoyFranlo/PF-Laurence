@@ -37,3 +37,9 @@ footer span a {
     }
 
 }
+
+@media (max-width: 992px) {
+    address a span {
+        display: none;
+    }
+}

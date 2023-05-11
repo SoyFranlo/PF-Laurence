@@ -91,6 +91,11 @@ footer span a {
   transform: scale(1.1);
 }
 
+@media (max-width: 992px) {
+  address a span {
+    display: none;
+  }
+}
 table {
   width: 60vw;
   margin: auto;
